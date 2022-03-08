@@ -9,11 +9,11 @@ function App() {
         <p>ES6 Arrow Functions!</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/SouthpawCurveConcepts/rsb-es6-arrow-functions"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Link to repo
         </a>
       </header>
     </div>
