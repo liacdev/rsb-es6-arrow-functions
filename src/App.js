@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import ArrowFunctionComponent from "./Components/ArrowFunctionComponent";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
         >
           Link to repo
         </a>
+
+        <ArrowFunctionComponent>
+          Arrow Function Class Component
+        </ArrowFunctionComponent>
       </header>
     </div>
   );
