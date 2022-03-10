@@ -1,29 +1,29 @@
 import React from "react";
 
 class ArrowFunctionComponent extends React.Component {
+  handleClick = () => {
+    console.log("Click happened");
+  };
+
   render() {
+    // This button will be rendered to handle the onClick activity
     return (
       <div>
-        <h2>Arrow Function Class Component</h2>
-
-        <p>Notes:</p>
-        {/* When to use arrow functions: Frontarm.com */}
-        
-        <script>
-        {{
-            hello = function() {
-              return "Hello World!";
-        }
-        }}
-        </script>
-    
-        
-        
-        <p id="demo">Notes:</p>
-
-        <p>Notes:</p>
-
-        <p>Notes:</p>
+        <div>
+          <strong>
+            <u>Section 2: This is a Class Component with an Arrow Function</u>
+          </strong>
+          return <button onClick={this.handleClick}>Click Me</button>
+          <p>Arrow functions allow for shorter syntax</p>
+          <p>Arrow functions have no binding of 'this'</p>
+          <p>
+            With Arrow functions, this always represents the object that defined
+            the arrow function
+          </p>
+          <p>There is more for this lesson</p>
+          <p>To be continued...</p>
+          <p></p>
+        </div>
       </div>
     );
   }
